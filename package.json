@@ -1,6 +1,6 @@
 {
   "name": "tailwind-verdiff",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Compare Tailwind CSS versions and config files with ease",
   "main": "lib/compare.js",
   "bin": {
@@ -21,6 +21,14 @@
   "author": "Aditya Pillai",
   "license": "MIT",
   "type": "module",
+  "homepage": "https://github.com/CodProdigy/tailwind-verdiff#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CodProdigy/tailwind-verdiff.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CodProdigy/tailwind-verdiff/issues"
+  },
   "dependencies": {
     "chalk": "^5.3.0",
     "lodash": "^4.17.21"
