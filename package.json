@@ -1,20 +1,28 @@
 {
-  "name": "npm_fun",
+  "name": "tailwind-verdiff",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Compare Tailwind CSS versions and config files with ease",
+  "main": "lib/compare.js",
   "bin": {
     "twverdiff": "./bin/index.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"No tests yet\" && exit 0"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "tailwindcss",
+    "cli",
+    "diff",
+    "version",
+    "compare",
+    "config",
+    "upgrade"
+  ],
+  "author": "Aditya Pillai",
+  "license": "MIT",
   "type": "module",
   "dependencies": {
-    "chalk": "^5.4.1",
+    "chalk": "^5.3.0",
     "lodash": "^4.17.21"
   }
 }
